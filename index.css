@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #b6cff5, #c3cfe2); /* Soft gradient background */
+    margin: 0;
+    height: 88vh; /* Full height */
+    padding: 40px;
+    border: 2px solid rebeccapurple;
+    min-width: 720px;
+
+}
+
+.container {
+    background-color: rgba(190, 217, 235, 0.9); /* White background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    padding: 20px 40px;
+    width: 94%; /* Responsive width */
+    /* max-width: 800px; */
+    border: 1px solid;
+    height: 90vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid blueviolet;
+    height: 200px;
+    /* border-radius: 2px; */
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid rgb(28, 44, 227); */
+}
+
+.slider{
+    border: 1px solid saddlebrown;
+    display: flex;
+    width: 760px;
+    justify-content: space-between;
+}
+
+.button{
+    border: 1px solid saddlebrown;
+    display: flex;
+    width: 760px;
+    justify-content: space-between;
+
+}
+
+.controls div {
+    margin: 10px 0;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    margin-left: 5px;
+    width: 300px;
+    height: 4px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    min-width: 80px; /* Minimum button width */
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.bar {
+    width: 50px;
+    margin: 0 1px;
+    background-color: #5f79bf;
+    transition: height 0.5s, background-color 0.2s, transform 0.2s;
+}
+
+.bar.comparing {
+    background-color: #fa502a; /* Red for comparing */
+    transform: scaleY(1.1); /* Slightly scale up for emphasis */
+}
+
+.currentBar{
+    background-color: red;
+}
+
+.sorted div{
+    background-color: rgb(59, 146, 59); /* Initial color for sorted bars */
+    
+}
+
+.sortedBar {
+    background-color: #91bd3f; /* Gold for sorted */
+    /* transform: scaleY(1); Reset scale */
+}
+
+#finalBar{
+    background-color: #000000;
+}
+
+.green{
+    background-color: aqua;
+}
