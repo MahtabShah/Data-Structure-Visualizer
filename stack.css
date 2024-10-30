@@ -1,0 +1,148 @@
+*{
+    /* margin: 2px; */
+    /* border: 1px solid red; */
+    text-decoration: none;
+}
+
+
+a{
+    font-size: 17px;
+    color: black;
+}
+
+
+html{
+    /* border: 2px solid blue; */
+    min-width: 804px;
+
+}
+
+body{
+
+    /* width: 97%; */
+    min-width: 800px;
+    border: 2px solid;
+    background-color: #3c5566;
+    color: white;
+}
+
+.M{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.A{
+    height: 45px;
+}
+
+.B{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.C{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    /* border: 2px solid blanchedalmond; */
+}
+
+.p{
+width: 200px;
+}
+
+.q{
+    width: 400px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+.q button , input{
+    margin: 5px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
+
+ input{
+    margin: 5px;
+    width: 62.5px;
+    height: 33px;
+    text-align: center;
+}
+
+.x{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.D{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    width: 99%;
+    background-color: #ddd;
+
+    /* margin-bottom: 140px; */
+    height: 690px;
+}
+
+.heading{
+    height: 100px;
+    text-align: center;
+    color: #0800ff;
+}
+
+.S{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-end ;
+    /* justify-content: flex-end; */
+    height: 500px;
+
+    
+}
+
+.s{
+    width: 60px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: none;
+    background-color: #d0f9bc;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+    transition-duration: 100ms;
+    margin-right: 20px;
+    text-align: center;
+    color: #024CAA;
+
+}
+
+.s >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w{
+    height: 240px;
+    border: 2px solid whitesmoke;
+
+}
+
+
+.s > div{
+    height: 40px;
+    width: 40px;
+    background-color: #55ff00;
+    /* border: 1px solid green; */
+    margin-top: 0.7px;
+    transition-duration: 50ms;
+}
