@@ -208,24 +208,8 @@ async function bubbleSort(array) {
                 await sleep(animationSpeed);
             }
 
-            // finalBar();
-
-            // arrayContainer.children[n - j - 1].style.background = `#3f4`;
-
-        }
-        // Change the color of the bar that's in its final position
-        // Sorted bar
-        // arrayContainer.children[n - i - 1].style.background = "green"; 
-        // arrayContainer.children[n - i - 1].removeAttribute('style');
-
-
         if (!swapped) break; // If no two elements were swapped, array is already sorted
     }
-
-    // Change the first element's color to green when sorting is complete
-    // First bar is sorted
-
-    // return 
 }
 
 
