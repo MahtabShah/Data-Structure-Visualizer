@@ -5,12 +5,6 @@
 }
 
 
-a{
-    font-size: 17px;
-    color: black;
-}
-
-
 html{
     /* border: 2px solid blue; */
     min-width: 804px;
@@ -24,6 +18,12 @@ body{
     border: 2px solid;
     background-color: #3c5566;
     color: white;
+}
+
+
+a{
+    font-size: 17px;
+    color: #222;
 }
 
 .M{
@@ -55,9 +55,6 @@ width: 200px;
 
 .q{
     width: 400px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
 }
 
 .q button , input{
@@ -83,11 +80,8 @@ width: 200px;
 .D{
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
     width: 99%;
     background-color: #ddd;
-
-    /* margin-bottom: 140px; */
     height: 690px;
 }
 
@@ -101,7 +95,6 @@ width: 200px;
     display: flex;
     flex-direction: row-reverse;
     align-items:flex-end ;
-    /* justify-content: flex-end; */
     height: 500px;
 
     
